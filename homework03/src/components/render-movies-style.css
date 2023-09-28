@@ -1,0 +1,22 @@
+#render-movies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-card img {
+    max-width: 100%;
+    margin-right: 10px;
+}
+
+.movie-card .movie-info {
+    flex: 1;
+}
